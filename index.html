@@ -8,6 +8,7 @@
   <body>
     <main>
       <!-- Complete the Exercises HERE -->
+      <div>
       <table>
         <tr>
           <th>Total Servings</th>
@@ -17,7 +18,68 @@
           <th>Sugar per Serving</th>
           <th>Sodium per Serving</th>
         </tr>
+        
+        <tr id="coke">Coke</tr><br>
+          <td class="total_serv">1 Can</td>
+          <td class="serving_sz">12oz</td>
+          <td class="cal_per_serv">140</td>
+          <td class="carbs_per_serv">39g</td>
+          <td class="sugars_per_serv">39g</td>
+          <td class="sodium_per_serv">45mg</td>
+        
+          <tr id="coke_zero">Coke Zero</tr><br>
+          <td class="total_serv">1 Can</td>
+          <td class="serving_sz">12oz</td>
+          <td class="cal_per_serv">0</td>
+          <td class="carbs_per_serv">0g</td>
+          <td class="sugars_per_serv">0g</td>
+          <td class="sodium_per_serv">40mg</td>
+       
+          <tr id="dr_p">Dr. Pepper</tr><br>
+          <td class="total_serv">1 Can</td>
+          <td class="serving_sz">12oz</td>
+          <td class="cal_per_serv">150</td>
+          <td class="carbs_per_serv">40g</td>
+          <td class="sugars_per_serv">39g</td>
+          <td class="sodium_per_serv">55mg</td>
+       
+          <tr id="pepsi">Pepsi</tr><br>
+          <td class="total_serv">1 Can</td>
+          <td class="serving_sz">12oz</td>
+          <td class="cal_per_serv">150</td>
+          <td class="carbs_per_serv">41g</td>
+          <td class="sugars_per_serv">41g</td>
+          <td class="sodium_per_serv">30mg</td>
+        
+          <tr id="mountain_dew">Mountain Dew</tr><br>
+          <td class="total_serv">1 Can</td>
+          <td class="serving_sz">12oz</td>
+          <td class="cal_per_serv">170</td>
+          <td class="carbs_per_serv">46g</td>
+          <td class="sugars_per_serv">46g</td>
+          <td class="sodium_per_serv">60mg</td>
       </table>
+      </div>
+
+      <div>
+      <form>
+        <label for="total_serv">Total Servings</label><br/>
+        <input type="text" id="total_serv"><br/>
+        <label for="serving_size">Serving Size</label><br/>
+        <input type="text" id="serving_size"><br/>
+        <label for="cal_per_serv">Calories per Serving</label><br/>
+        <input type="text" id="cal_per_serv"><br/>
+        <label for="carbs_per_serv">Carbs per Serving</label><br/>
+        <input type="text" id="carbs_per_serv"><br/>
+        <label for="sugar_per_serving">Sugar Per Serving</label><br/>
+        <input type="text" id="sugar_per_serving"><br/>
+        <label for="sodium_per_serv">Sodium per Serving</label><br/>
+        <input type="text" id="sodium_per_serv"><br/>
+       
+      </form>
+  
+      </div>
+      <button type="submit"></button>
     </main>
   </body>
 </html>
